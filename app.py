@@ -40,7 +40,7 @@ def multiply(n1, n2):
     If input is not numbers returns an error asking for the user to only input numbers"""
     if n1.isdigit() == True and n2.isdigit() == True:
         x = int(n1)*int(n2)
-        return f'{n1} times {n2} is {x}'
+        return f'{n1} times {n2} is {x}.'
     else:
         return 'Invalid inputs. Please try again by entering 2 numbers!'
 
